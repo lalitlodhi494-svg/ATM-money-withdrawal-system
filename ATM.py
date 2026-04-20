@@ -68,9 +68,9 @@ while is_running:
 
     print("   4. View transaction history") 
     
-    print("   5.help          ")
+    print("   5. help          ")
 
-    print("   6.exit         ")
+    print("   6. exit         ")
 
     
 
