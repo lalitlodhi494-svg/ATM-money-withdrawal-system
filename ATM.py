@@ -41,7 +41,6 @@ def transaction():
             print("-", item)
 
 def help():
-    print("This is a simple banking program that allows you to check your balance, \ndeposit money, and withdraw money.\n")
     print("This is a simple banking program that allows you to check your balance,deposit money, and withdraw money.\n")
 
     print("To use the program, simply enter the number corresponding to the action you want to perform.\n")
@@ -79,7 +78,6 @@ while is_running:
     elif choice == "4":
            transaction ()
     elif choice == "5":
-           exit ()     
            exit()     
     elif choice == "6":
         help ()
