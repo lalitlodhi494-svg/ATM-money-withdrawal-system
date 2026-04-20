@@ -42,6 +42,7 @@ def transaction():
 
 def help():
     print("This is a simple banking program that allows you to check your balance, \ndeposit money, and withdraw money.\n")
+    print("This is a simple banking program that allows you to check your balance,deposit money, and withdraw money.\n")
 
     print("To use the program, simply enter the number corresponding to the action you want to perform.\n")
     
