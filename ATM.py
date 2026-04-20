@@ -45,7 +45,6 @@ def help():
 
     print("To use the program, simply enter the number corresponding to the action you want to perform.\n")
     
-    print("For example, to check your balance, enter'1'.\n To deposit money, enter'2'.\nTo withdraw money, enter'3'.\n to View transaction history. \n for exit press '5'.")
 
 
 while is_running:
@@ -79,6 +78,7 @@ while is_running:
            transaction ()
     elif choice == "5":
            exit ()     
+           exit()     
     elif choice == "6":
         help ()
         is_running = False 
@@ -86,3 +86,4 @@ while is_running:
         print("That is not a valid choice")
 
 print("Thank you, have a nice day!")
+print("Thank you, have a nice day!\n")
